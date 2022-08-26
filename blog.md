@@ -39,6 +39,9 @@
 - HTML, CSS, Javascript, and Python!
 
 <p>&nbsp;</p>
+<!-- question #3 -->
 <h2 align="center"> What is something about you that can only be learned by reading this blog? </h2>
 
-Well one thing that you could only learn from here is that the [League of Legends](https://www.leagueoflegends.com/en-us/) World Championship actually had more viewers than the Super Bowl in 2019. The LOL World Championship reached 120 million viewers and the Super Bowl at that time had 108 million! It just goes to show how much esports has grown and will continue to grow!
+<!-- answer #3 -->
+<p align="center"> Well one thing that you could only learn from here is that the <a href="https://www.leagueoflegends.com/en-us/">League of Legends</a> World Championship actually had more viewers than the Super Bowl in 2019. The LOL World Championship reached 120 million viewers and the Super Bowl at that time had 108 million! It just goes to show how much esports has grown and will continue to grow! </p>
+<!-- [League of Legends](https://www.leagueoflegends.com/en-us/) -->
