@@ -1,3 +1,4 @@
+
 <!-- start with header -->
 <!-- also try and center text with most of the page -->
 
@@ -23,12 +24,12 @@
   </h2>
 <!-- answer #1 -->
   
-<h3> My first week in the <b> Awesome Inc Bootcamp </b> was not as I expected </h3>
+<p> My first week in the <b> Awesome Inc Bootcamp </b> was not as I expected </p>
 
  - I did not expect [Github](https://github.com/) to be this big and vast (having a blast learning it)!
  - Did not realize there was this much more than just coding in a Developers world :flushed:.
-
-<p>&nbsp;</p>
+<!-- non breaking space. *informal* -->
+<p>&nbsp;</p> 
 
 <!-- question #2 -->
 <h2 align="center"> What are you excited or eager to learn more about? </h2>
@@ -40,5 +41,4 @@
 <p>&nbsp;</p>
 <h2 align="center"> What is something about you that can only be learned by reading this blog? </h2>
 
-
-
+Well one thing that you could only learn from here is that the [League of Legends](https://www.leagueoflegends.com/en-us/) World Championship actually had more viewers than the Super Bowl in 2019. The LOL World Championship reached 120 million viewers and the Super Bowl at that time had 108 million! It just goes to show how much esports has grown and will continue to grow!
