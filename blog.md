@@ -8,7 +8,7 @@
   
 <!-- add maybe an image or something to spice it up -->
 
-  ![blog image](https://github.com/LhallLhall/LhallLhall.github.io/blob/main/img/istockphoto-1331943301-170667a.jpg)
+  ![blog image](/img/istockphoto-1331943301-170667a.jpg)
 
 
 <!-- Highlight anything that didn't work here -->
