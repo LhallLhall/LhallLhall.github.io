@@ -45,4 +45,4 @@
  Well one thing that you could only learn from here is that the [League of Legends](https://www.leagueoflegends.com/en-us/) World Championship actually had more viewers than the Super Bowl in 2019. The LOL World Championship reached 120 million viewers and the Super Bowl at that time had 108 million! It just goes to show how much esports has grown and will continue to grow! 
 
 ## Sidenote
-This is a little something I did while in the "Intro to Web" class [pokemon generator](https://finalprojectvtwo.glitch.me/)
+This is a little something I did while in the "Intro to Web" class [pokemon generator](/index.html)
