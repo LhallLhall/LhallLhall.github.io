@@ -8,7 +8,7 @@
   
 <!-- add maybe an image or something to spice it up -->
 <p align="center">
-  <img width="460" height="300" src="https://myoctocat.com/assets/images/base-octocat.svg">
+  <img  src="https://github.com/LhallLhall/LhallLhall.github.io/blob/main/img/Screenshot_1.png">
 </p>
 
 <!-- Highlight anything that didn't work here -->
