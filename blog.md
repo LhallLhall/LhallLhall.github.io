@@ -2,10 +2,7 @@
 <!-- start with header -->
 <!-- also try and center text with most of the page -->
 
-
-  # Logans Blog!
-  
-  
+# Logans Blog!
 <!-- add maybe an image or something to spice it up -->
 
   ![blog image](/img/istockphoto-1331943301-170667a.jpg)
@@ -19,8 +16,7 @@
 
 
 <!--  question #1  -->
-  
-  ## Was your first week what you expected? Why? Why not?
+## Was your first week what you expected? Why? Why not?
  
 <!-- answer #1 -->
   
