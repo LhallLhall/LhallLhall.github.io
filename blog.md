@@ -1,1 +1,1 @@
-
+# Logan Halls Blog!
