@@ -3,56 +3,267 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="icon" href="img/blog (1).png" />
+
+    <title>Bootstrap</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <title>Random Pokemon Team Generator</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <!-- import the webpage's stylesheet -->
-    <style> 
-      body {
-  margin: 0px;
-  background-color: blue;
-}
-
-
-.bold-h1 {
-  color: black;
-  font-weight: bold;
-}
-    </style>
-
+    <link rel="stylesheet" href="/style.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/pokemon.js" defer></script>
+    <script src="/script.js" defer></script>
   </head>
   <body>
-    <header> 
-    <div>
-      <img  src="https://cdn.glitch.global/50ae0f5a-8fe6-4078-9356-be94109ba0b7/International_Pok%C3%A9mon_logo.svg.png?v=1660517101952" class="img-fluid" alt="Responsive image"/>
+    <div class="container-fluid">
+      <div class="contianer px-4 pt-5 my-5 text-center ">
+        <h1 class="display-4 fw-bold">Logan Hall</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Aspiring Web Developer</p>
+        </div>
+        <div class="overflow-hidden" style="max-height: 50vh">
+          <div class="container px-5">
+            <img
+              src="img/Altja_jõgi_Lahemaal.jpg"
+              class="img-fluid rounded-3 "
+              alt="Example image"
+              width=""
+              height=""
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="row ">
+          <h1 class="display-4 fst-italic text-center">Sprint 2 Questions</h1>
+        </div>
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+          <div class="">
+            <div class="">
+              <h4 class=" fst-italic text-center">What is something you wish you could do but currently do not have the coding skills to accomplish?</h4>
+              <p class="my-3 text-center">I would absolutely love to make mods for games!</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <h4 class=" fst-italic text-center">What are you struggling with?</h4>
+            <p class="my-3 text-center">
+              Need to ask for help more. I need to realize that people are there to help and that failing is not bad at all. 
+              Failing makes you move further becuase you learn more whenever you fail compared to always succeeding.</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <h4 class=" fst-italic text-center">How do you solve a problem?</h4>
+            <p class="my-3 text-center">
+              Well it depends on what kind of problem it is. 
+              If it's a problem that is for programming I would isolate the pieces of code I think are responsible for it. 
+              Then I would deep dive into each area until I found the problem. Usually using the 
+              <a class="text-decoration-none" href="https://www.techtarget.com/whatis/definition/scientific-method"> scientific method</a> 
+              helps a lot. If it's not a programming problem I would try and reflect on the problem as long as I could before making a decision.
+            </p>
+          </div>
+        </div>
+        <div class="">
+            <div class="">
+              <h4 class=" fst-italic text-center">What methods do you use to help yourself get unstuck?</h4>
+              <p class="my-3 text-center">
+                Going back a little to what I said in the "how to solve a problem" I usually use the 
+                <a class="text-decoration-none" href="https://www.techtarget.com/whatis/definition/scientific-method"> scientific method</a> 
+                for most my programmig problems. 
+                Taking a break is always a good way to help yourself get unstuck. 
+                Having fresh eyes on a project can be very helpful 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-4 py-5" id="skill-cards">
+        <h2 class="pb-2 border-bottom text-center">My Skills</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-1.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  HTML, CSS, JavaScript
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-2.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  WordPress, Squarespace, IFTTT
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-3.jpg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  Google Workspace, Glitch
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
-    </header>
-    <div class="container text-center">
-      <button id="getPokemonBtn" class="btn btn-lg btn-success btn-light">Create Pokemon Team</button>
-    </div>
-    <div id="pokemonList" class="container">
-      <div class="container text-center ">
-        <div class="row mb-1 ">
-          <div class="col p-2" id="pokemon0"></div>
-          <div class="col p-2" id="pokemon1"></div>
-          <div class="col p-2" id="pokemon2"></div>
-        </div>
-        <div class="row mb-1">
-          <div class="col p-2" id="pokemon3"></div>
-          <div class="col p-2" id="pokemon4"></div>
-          <div class="col p-2" id="pokemon5"></div>
+      <div class="container px-4 py-5" id="learn-cards">
+        <h2 class="pb-2 border-bottom text-center">Intend To Learn</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-1.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  React, Python, Django
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-2.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  Flutter, Firebase, Dart
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-3.jpg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  Google Cloud
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      
+      <div class="container px-4 py-5" id="projects-cards">
+        <h2 class="pb-2 border-bottom text-center">Current Projects</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-1.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  <a href="https://batman-project.glitch.me" style="text-decoration: none;">Batman</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-2.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  <a href="https://structuringapageofcontent.glitch.me" style="text-decoration: none;" >Birdwatching</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('unsplash-photo-3.jpg')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">
+                  <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0">Logan Hall, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-light" href="https://twitter.com/Ioganhall">
+              <i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-light"
+              href="https://www.instagram.com/logan_hall2004/"
+            >
+              <i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-light" href="https://github.com/LhallLhall">
+              <i class="bi bi-github"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
     </div>
 
     <script
