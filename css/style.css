@@ -1,6 +1,7 @@
 html {
     margin: 0px;
     background-color: #808080;
+    font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
 }
 
 body {
@@ -9,3 +10,24 @@ body {
 .color {
     color: black;
 }
+
+#bgImage {
+    background-image: url('/img/IMG_5715.JPG');
+}
+
+.card-img-overlay {
+    /* position: absolute; */
+    top: 40%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+.cardClear{
+    background-color: rgba(0, 0, 0, 0.528)
+}
+
+/* .cardTextColor{
+    color: rgba(35, 35, 35, 0.42)
+} */
