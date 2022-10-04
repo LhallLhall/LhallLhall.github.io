@@ -7,33 +7,43 @@ html {
 body {
     background-color: #808080;
 }
-.color {
+/* .color {
     color: black;
-}
+} */
 
 #bgImage {
     background-image: url('/img/IMG_5715.JPG');
 }
 
-.card-img-overlay {
-    position: absolute; 
+/* .card-img-overlay { */
+    /* position: absolute;  */
     /* top: 0; */
-    right: 0;
-    bottom: 40%;
-    left: 0;
-    padding: var(--bs-card-img-overlay-padding);
-    border-radius: var(--bs-card-inner-border-radius); 
- }  
+    /* right: 0; */
+    /* bottom: 40%; */
+    /* left: 0; */
+    /* padding: var(--bs-card-img-overlay-padding); */
+    /* border-radius: var(--bs-card-inner-border-radius);  */
+ /* }   */
 #positionText{
     -webkit-text-stroke: 2px black;
     -webkit-text-fill-color: white;
 }
 
-.cardClear{
+/* .cardClear{
     background-color: rgba(174, 150, 150, 0.528)
-}
+} */
 
 body{
     -webkit-text-stroke: 2px black;
     -webkit-text-fill-color: white;
 }
+/* .link{
+    color: #060606;
+    text-decoration: none !important;
+}
+
+.link:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+} */
