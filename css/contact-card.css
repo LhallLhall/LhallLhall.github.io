@@ -1,27 +1,3 @@
-html {
-    margin: 0px;
-    background-color: #808080;
-    font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
-}
-
-.body {
-    background-color: #808080;
-}
-.color {
-    background-color: #808080;
-}
-
-.bgImage {
-    background: url("https://love2justice.files.wordpress.com/2012/02/blog-background.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
-
-#positionText{
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: white;
-}
-
 /*
  * Globals
  */
@@ -75,5 +51,3 @@ html {
   color: #fff;
   border-bottom-color: #fff;
 }
-
-
