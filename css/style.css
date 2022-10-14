@@ -4,9 +4,10 @@ html {
     font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
 }
 
-/* #test {
-  background-color:rgba(255, 255, 255, 0.03)
-} */
+.test {
+  /* background-color:rgba(255, 255, 255, 0.03) */
+  text-shadow: 10px 5px 5px black;
+}
 
 .body {
     background-color: #808080;
@@ -53,7 +54,7 @@ html {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 72em;
 }
 
 
