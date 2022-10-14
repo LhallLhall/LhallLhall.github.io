@@ -13,14 +13,16 @@ html {
     background-color: #808080;
 }
 .color {
-    background-color: #808080;
+    color: #ffffffbc;
 }
 
 .bgImage {
-    background: url("https://love2justice.files.wordpress.com/2012/02/blog-background.jpg") no-repeat center center fixed;
+    background: url("https://t3.ftcdn.net/jpg/03/32/24/92/360_F_332249282_aicKD4ZlPqVTg2PvbZtDGP5RTzU6cXj3.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-
+.bgImage2{
+  background-image: url('https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/Desktop.png')
+}
 
 #positionText{
     -webkit-text-stroke: 2px black;
