@@ -24,7 +24,7 @@ export function Navbar(props) {
             aria-current="page"
             onClick={() => {
               props.setPage(item.split("|")[1]);
-              navControl();
+              
             }}
           >
             {item.split("|")[0]}
