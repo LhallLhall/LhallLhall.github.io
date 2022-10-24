@@ -12,7 +12,7 @@ export default function MainPage(props) {
     
     
     if (props.page === 'Blog') {
-      return <BlogPost3 page={props.page} setPage={props.setPage}/>
+      return <BlogPost4 page={props.page} setPage={props.setPage}/>
     }
 
     if (props.page === 'Contact') {
@@ -62,14 +62,14 @@ export default function MainPage(props) {
                     <h1 className="color">About Me!</h1>
                   </div>
                   <div className="col-12">
-                    <h5 className="color test text-center py-3"> 
+                    <h5 className="color test text-center py-3 "> 
                         I was born in Lexington, Kentucky in 2004! I graduated highschool April of 2022.
                         Afterwards I decided to pursue a career in web development because I already had a fascination for hardware and wanted more software experience.
                       
                     </h5>
                   </div>
                   <div className="col-12">
-                    <h5 className='color test text-center py-3'>My passions and hobbies are computers and technology.
+                    <h5 className='color test text-center py-3 pb-4'>My passions and hobbies are computers and technology.
                         I love both hardware and software because of how complex electronics are nowadays.
                         One thing i love to do is a quick puzzle that really makes me problem solve because there is no better feeling than solving a puzzle.
                         </h5>
