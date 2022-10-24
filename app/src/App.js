@@ -1,16 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import React from 'react'
+import {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import Axios from 'axios'
 import './App.css';
-import MainPage from 'app/src/pages/mainPage.jsx'
+import MainPage from './pages/mainPage.jsx'
 
 
 function App() {
+  const [page, setPage] = useState('Home')
+
+
   return (
-    <div className="">
-      <MainPage />
+    <div className="body">
+      <MainPage page={page} setPage={setPage}/>
     </div>
   );
 }

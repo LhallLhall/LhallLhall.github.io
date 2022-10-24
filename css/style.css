@@ -1,6 +1,6 @@
 html {
     margin: 0px;
-    background-color: #808080;
+    /* background-color: #808080; */
     font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
 }
 
@@ -12,7 +12,10 @@ html {
 
 
 .body {
-    background-color: #808080;
+    background-color: #7774748a;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
+    
 }
 .color {
     color: #ffffffbc;
@@ -23,7 +26,7 @@ html {
   background-size: cover;
 }
 .bgImage2{
-  background-image: url('https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/Desktop.png')
+  background-image: url('https://w0.peakpx.com/wallpaper/901/891/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpg')
 }
 
 #positionText{
