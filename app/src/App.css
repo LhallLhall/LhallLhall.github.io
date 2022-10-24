@@ -1,0 +1,99 @@
+html {
+  margin: 0px;
+  background-color: #464545;
+  /* background-color: #808080; */
+  font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
+  }
+  
+  .test {
+  /* background-color:rgba(255, 255, 255, 0.03) */
+  text-shadow: 10px 5px 5px black;
+  }
+  
+  .bgShadow{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.65);
+    /* box-shadow: 10px 5px 5px black; */
+  }
+  
+  .body {
+  background-color: #464343;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
+  
+  }
+  .color {
+  color: #ffffffde;
+  }
+  
+  .bgImage {
+  background: url("https://t3.ftcdn.net/jpg/03/32/24/92/360_F_332249282_aicKD4ZlPqVTg2PvbZtDGP5RTzU6cXj3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  }
+  .bgImage2{
+  background-image: url('https://w0.peakpx.com/wallpaper/901/891/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpg')
+  }
+  
+  #positionText{
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: white;
+  }
+  
+  /*
+  * Globals
+  */
+  
+  
+  /* Custom default button */
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  }
+  
+  
+  /*
+  * Base structure
+  */
+  
+  
+  .image {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background: url("./img/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  
+  }
+  
+  .cover-container {
+  max-width: 72em;
+  }
+  
+  
+  /*
+  * Header
+  */
+  
+  .nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+  }
+  
+  
+  
