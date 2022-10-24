@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eeb53625.css",
+    "main.js": "/static/js/main.121674cd.js",
+    "static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.jpeg": "/static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.81ff637c974627944871.jpeg",
+    "static/media/landscapeImageOfMe.jpeg": "/static/media/landscapeImageOfMe.89da425d6c53a4923322.jpeg",
+    "static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpeg": "/static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.8281f135dcee8686535c.jpeg",
+    "index.html": "/index.html",
+    "main.eeb53625.css.map": "/static/css/main.eeb53625.css.map",
+    "main.121674cd.js.map": "/static/js/main.121674cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeb53625.css",
+    "static/js/main.121674cd.js"
+  ]
+}
