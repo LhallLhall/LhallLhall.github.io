@@ -11,7 +11,8 @@ html {
   }
   
   .bgShadow{
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.65);
+    /* box-shadow: 10px 5px 5px black; */
   }
   
   .body {

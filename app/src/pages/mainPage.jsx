@@ -57,19 +57,19 @@ export default function MainPage(props) {
           </div>
           
             <div className="row mt-5 text-center d-flex align-content-center  justify-content-center  ">
-                <div className="col-12 col-md-10 text-center rounded test bgShadow bg-dark">
+                <div className="col-12 col-md-10 text-center rounded bgShadow bg-dark">
                   <div className="col-12 pt-5">
                     <h1 className="color">About Me!</h1>
                   </div>
                   <div className="col-12">
-                    <h5 className="color text-center py-3"> 
+                    <h5 className="color test text-center py-3"> 
                         I was born in Lexington, Kentucky in 2004! I graduated highschool April of 2022.
                         Afterwards I decided to pursue a career in web development because I already had a fascination for hardware and wanted more software experience.
                       
                     </h5>
                   </div>
                   <div className="col-12">
-                    <h5 className='color text-center py-3'>My passions and hobbies are computers and technology.
+                    <h5 className='color test text-center py-3'>My passions and hobbies are computers and technology.
                         I love both hardware and software because of how complex electronics are nowadays.
                         One thing i love to do is a quick puzzle that really makes me problem solve because there is no better feeling than solving a puzzle.
                         </h5>
@@ -111,12 +111,12 @@ export default function MainPage(props) {
               </div> */}
               
               <div className="container  px-4 py-5" id="projects-cards">
-                <h2 className="pb-2 border-bottom border-dark border-3 text-center">Current Projects</h2>
+                <h2 className="pb-2 border-bottom border-dark color border-3 text-center">Current Projects</h2>
         
                 <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                   <div className="col">
                     <div
-                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
                       // style={{backgroundImage: `url(${unsplashImage})`}}
                       >
                       <div
@@ -131,7 +131,7 @@ export default function MainPage(props) {
         
                   <div className="col">
                     <div
-                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
                       // style="background-image: url('unsplash-photo-2.jpg')"
                       >
                       <div
@@ -146,7 +146,79 @@ export default function MainPage(props) {
         
                   <div className="col">
                     <div
-                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
+                      // style="background-image: url('unsplash-photo-3.jpg')"
+                      >
+                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center">
+                          {/* <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a> */}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
+                      // style="background-image: url('unsplash-photo-3.jpg')"
+                      >
+                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center">
+                          {/* <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a> */}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
+                      // style="background-image: url('unsplash-photo-3.jpg')"
+                      >
+                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center">
+                          {/* <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a> */}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
+                      // style="background-image: url('unsplash-photo-3.jpg')"
+                      >
+                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center">
+                          {/* <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a> */}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
+                      // style="background-image: url('unsplash-photo-3.jpg')"
+                      >
+                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center">
+                          {/* <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a> */}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
+                      // style="background-image: url('unsplash-photo-3.jpg')"
+                      >
+                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center">
+                          {/* <a href="Pokemon/pokemon.html" style="text-decoration: none;" >Pokemon Generator</a> */}
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col">
+                    <div
+                      className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 bgShadow"
                       // style="background-image: url('unsplash-photo-3.jpg')"
                       >
                       <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
