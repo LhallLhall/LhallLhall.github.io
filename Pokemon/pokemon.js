@@ -20,7 +20,7 @@ async function getPokemon(e) {
     // each iteration grab a random number
     var randomNumber = getRandomInt(limit);
     // each iteration push an obj to the array, pokemon
-   
+
     var pokemon = data.results[randomNumber - 1]; // individual pokemon {name:'blah', url:'blah'}
     var tmpData = await fetch(pokemon.url);
     pokemon.data = await tmpData.json();
@@ -76,3 +76,4 @@ function makePokemonCard(pokemonObj, id) {
   pokemonContainer.innerHTML = "";
   pokemonContainer.append(pokemonDiv);
 }
+	
