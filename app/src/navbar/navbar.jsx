@@ -35,7 +35,7 @@ export function Navbar(props) {
   };
 
   return (
-    <div className="cover-container d-flex w-100 h-50 p-3 mx-auto flex-column">
+    <div className="cover-container  d-flex w-100 h-50 p-3 mx-auto flex-column">
       <header className="mb-auto ">
         <img
           className="float-start"

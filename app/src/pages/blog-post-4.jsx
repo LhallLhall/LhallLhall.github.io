@@ -1,4 +1,5 @@
 import { Navbar } from "../navbar/navbar"
+import imageTagImage from './virtual-reality-bro.png'
 
 export default function BlogPost4 (props) {
     // const image = './pages/insert-image-html.jpg'
@@ -11,8 +12,8 @@ export default function BlogPost4 (props) {
         <div className="col-lg-6 mx-auto">
           <p className="lead color mb-4">Aspiring Web Developer</p>
         </div>
-        <div className="overflow-hidden" style={{maxHeight: "60vh"}}>
-          
+        <div  className="overflow-hidden" style={{maxHeight: "30vh"}}>
+            <img src={imageTagImage} alt="virtual reality" height="250px" />
         </div>
       </div>
       <div className="container p-4 p-md-5 mb-4 rounded text-bg-dark bgShadow">

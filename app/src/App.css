@@ -19,10 +19,17 @@ html {
   background-color: #464343;
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
-  
   }
+
+  .bgColor{
+    background-color: rgb(42, 40, 40)
+  }
+
   .color {
   color: #ffffffde;
+  }
+  .color2{
+    color: #ffffffae;
   }
   
   .bgImage {
