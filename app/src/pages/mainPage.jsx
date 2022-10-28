@@ -133,7 +133,7 @@ export default function MainPage(props) {
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
                     Alarm-Clock
                   </h2>
-                  <h5 className='color2 text-center'>Html, CSS, Javascript</h5>
+                  <h5 className="color2 text-center">Html, CSS, Javascript</h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
                   <a
@@ -143,7 +143,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>
@@ -155,8 +155,12 @@ export default function MainPage(props) {
                 // style="background-image: url('unsplash-photo-3.jpg')"
               >
                 <div className="col d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                  <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color">Mind-Reader</h2>
-                  <h5 className='color2 text-center'>Html, CSS, Bootstrap, Javascript</h5>
+                  <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color">
+                    Mind-Reader
+                  </h2>
+                  <h5 className="color2 text-center">
+                    Html, CSS, Bootstrap, Javascript
+                  </h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
                   <a
@@ -166,7 +170,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>
@@ -181,18 +185,20 @@ export default function MainPage(props) {
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
                     Pokemon Generator
                   </h2>
-                  <h5 className='color2 text-center'>Html, CSS, Bootstrap, Javascript</h5>
+                  <h5 className="color2 text-center">
+                    Html, CSS, Bootstrap, Javascript
+                  </h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
-                  <button
-                    href="./Pokemon/pokemon.html"
+                  <a
+                    href="https://lhalllhall.github.io/pokemon-generator/"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
-                  </button>
+                    Let's Go!
+                  </a>
                 </div>
               </div>
             </div>
@@ -205,18 +211,20 @@ export default function MainPage(props) {
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
                     To-do-list
                   </h2>
-                  <h5 className='color2 text-center'>Html, CSS, Bootstrap, React</h5>
+                  <h5 className="color2 text-center">
+                    Html, CSS, Bootstrap, React
+                  </h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
-                  <button
+                  <a
                     href="https://lhalllhall.github.io/to-do-list/"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
-                  </button>
+                    Let's Go!
+                  </a>
                 </div>
               </div>
             </div>
@@ -229,7 +237,9 @@ export default function MainPage(props) {
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
                     Weather-App
                   </h2>
-                  <h5 className='color2 text-center'>Html, CSS, Bootstrap, Javascript</h5>
+                  <h5 className="color2 text-center">
+                    Html, CSS, Bootstrap, Javascript
+                  </h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
                   <a
@@ -239,7 +249,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>
@@ -250,8 +260,12 @@ export default function MainPage(props) {
                 // style="background-image: url('unsplash-photo-3.jpg')"
               >
                 <div className="col d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                  <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">ReactRestaurant</h2>
-                  <h5 className='color2 text-center'>Html, CSS, Bootstrap, React</h5>
+                  <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
+                    ReactRestaurant
+                  </h2>
+                  <h5 className="color2 text-center">
+                    Html, CSS, Bootstrap, React
+                  </h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
                   <a
@@ -261,7 +275,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>
@@ -272,8 +286,10 @@ export default function MainPage(props) {
                 // style="background-image: url('unsplash-photo-3.jpg')"
               >
                 <div className="col d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                  <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">EverCraft</h2>
-                  <h5 className='color2 text-center'>Python</h5>
+                  <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
+                    EverCraft
+                  </h2>
+                  <h5 className="color2 text-center">Python</h5>
                 </div>
                 <div className="col-12 d-flex justify-content-center pb-4">
                   <a
@@ -283,7 +299,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>
@@ -304,7 +320,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>
@@ -325,7 +341,7 @@ export default function MainPage(props) {
                     className="btn btn-secondary w-50"
                     style={{ textDecoration: "none" }}
                   >
-                    Click me!
+                    Let's Go!
                   </a>
                 </div>
               </div>

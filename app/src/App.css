@@ -2,7 +2,7 @@ html {
   margin: 0px;
   background-color: #464545;
   /* background-color: #808080; */
-  font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   }
   
   .test {
@@ -18,7 +18,7 @@ html {
   .body {
   background-color: #464343;
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Abyssinica SIL','Josefin Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   }
 
   .bgColor{
