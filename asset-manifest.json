@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeb53625.css",
-    "main.js": "/static/js/main.121674cd.js",
+    "main.css": "/static/css/main.f33c3d4b.css",
+    "main.js": "/static/js/main.425124ef.js",
+    "static/media/virtual-reality-bro.png": "/static/media/virtual-reality-bro.132a35f13186c42d6aef.png",
     "static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.jpeg": "/static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.81ff637c974627944871.jpeg",
     "static/media/landscapeImageOfMe.jpeg": "/static/media/landscapeImageOfMe.89da425d6c53a4923322.jpeg",
     "static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpeg": "/static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.8281f135dcee8686535c.jpeg",
     "index.html": "/index.html",
-    "main.eeb53625.css.map": "/static/css/main.eeb53625.css.map",
-    "main.121674cd.js.map": "/static/js/main.121674cd.js.map"
+    "main.f33c3d4b.css.map": "/static/css/main.f33c3d4b.css.map",
+    "main.425124ef.js.map": "/static/js/main.425124ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb53625.css",
-    "static/js/main.121674cd.js"
+    "static/css/main.f33c3d4b.css",
+    "static/js/main.425124ef.js"
   ]
 }
