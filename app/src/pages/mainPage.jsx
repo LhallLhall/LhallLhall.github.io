@@ -6,8 +6,7 @@ import BlogPost3 from "./blog-post-3.jsx";
 import BlogPost4 from "./blog-post-4.jsx";
 import Contact from "./contact/contact-card.jsx";
 // import unsplashImage from 'unsplash-photo-1.jpg'
-const externalImage =
-  "https://cdn.fansshare.com/image/backgroundimage/top-best-simple-awesome-background-images-for-your-website-or-blog-for-website-41002968.jpg";
+const externalImage = "./img/weather-app.jpeg";
 
 export default function MainPage(props) {
   if (props.page === "Blog") {
@@ -32,7 +31,7 @@ export default function MainPage(props) {
               <div className="row ">
                 <div className="col-12 col-md-8">
                   <div className="col-12 d-flex justify-content-center">
-                    <h1 className="test float-start ">Logan Hall</h1>
+                    <h1 className="test float-start">Logan Hall</h1>
                   </div>
                   <div className="col-12 d-flex justify-content-center">
                     <p className="lead test float-start">
@@ -84,39 +83,6 @@ export default function MainPage(props) {
             </div>
           </div>
         </div>
-        {/* <div className="container px-4 py-5" id="custom-cards">
-                <h2 className="pb-2 border-bottom border-dark border-3 text-center">Blog Post</h2>
-            
-                <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                  <div className="col">
-                    <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{backgroundImage: `url(${externalImage})`}}>
-                      <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 className=" mt-5 mb-4 display-6 lh-1 fw-bold text-center">Sprint 1 Blog</h3>
-                        
-                        
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div className="col">
-                    <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{backgroundImage: `url(${externalImage})`}}>
-                      <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 className=" mt-5 mb-4 display-6 lh-1 fw-bold text-center" >Sprint 2 Blog</h3>
-                        
-                      </div>
-                    </div>
-                  </div>
-        
-                  <div className="col">
-                    <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{backgroundImage: `url(${externalImage})`}}>
-                      <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 className=" mt-5 mb-4 display-6 lh-1 fw-bold text-center ">Sprint 3 Blog</h3>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
 
         <div className="container  px-4 py-5" id="projects-cards">
           <h2 className="py-2 border-bottom border-dark color border-3 text-center">
@@ -234,6 +200,7 @@ export default function MainPage(props) {
                 // style="background-image: url('unsplash-photo-3.jpg')"
               >
                 <div className="col d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <img src={externalImage} className='img'/>
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
                     Weather-App
                   </h2>
@@ -261,7 +228,10 @@ export default function MainPage(props) {
               >
                 <div className="col d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
-                    ReactRestaurant
+                    React
+                    <br>
+                    </br>
+                    Restaurant
                   </h2>
                   <h5 className="color2 text-center">
                     Html, CSS, Bootstrap, React
