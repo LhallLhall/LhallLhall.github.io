@@ -14,6 +14,10 @@ html {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.65);
     box-shadow: 10px 5px 5px black;
   } */
+
+  .imgResize {
+    max-width: 20vw;
+  }
   
   .body {
   background-color: #464343;
@@ -116,4 +120,13 @@ html {
       color: rgba(255, 255, 255, 0.888);
       border-bottom: .25rem solid transparent;
       }
+      .imgResize{
+        max-width: 60vw;
+      }
+    }
+    @media (min-device-width: 481px) and (max-device-width: 991px) {
+      .imgResize{
+        max-width: 40vw;
+      }
+      
   }
