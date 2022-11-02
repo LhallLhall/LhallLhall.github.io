@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f33c3d4b.css",
-    "main.js": "/static/js/main.425124ef.js",
+    "main.css": "/static/css/main.514f3677.css",
+    "main.js": "/static/js/main.d2ab004f.js",
+    "static/media/pokemon-gen.png": "/static/media/pokemon-gen.fc3a82976bd93e5ab16b.png",
     "static/media/virtual-reality-bro.png": "/static/media/virtual-reality-bro.132a35f13186c42d6aef.png",
     "static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.jpeg": "/static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.81ff637c974627944871.jpeg",
     "static/media/landscapeImageOfMe.jpeg": "/static/media/landscapeImageOfMe.89da425d6c53a4923322.jpeg",
+    "static/media/to-do-list.png": "/static/media/to-do-list.3b5bb8b367552fb3b743.png",
+    "static/media/alarm-clock.png": "/static/media/alarm-clock.36883ea1ec481fc787b5.png",
+    "static/media/weather-app.png": "/static/media/weather-app.487b575f75bb58556cc5.png",
+    "static/media/mind-reader.png": "/static/media/mind-reader.bc8b0dea4875fdd0fc35.png",
     "static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpeg": "/static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.8281f135dcee8686535c.jpeg",
     "index.html": "/index.html",
-    "main.f33c3d4b.css.map": "/static/css/main.f33c3d4b.css.map",
-    "main.425124ef.js.map": "/static/js/main.425124ef.js.map"
+    "main.514f3677.css.map": "/static/css/main.514f3677.css.map",
+    "main.d2ab004f.js.map": "/static/js/main.d2ab004f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f33c3d4b.css",
-    "static/js/main.425124ef.js"
+    "static/css/main.514f3677.css",
+    "static/js/main.d2ab004f.js"
   ]
 }
