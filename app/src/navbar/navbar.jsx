@@ -40,7 +40,7 @@ export function Navbar(props) {
         <img
           className="float-start"
           height=""
-          width="150px"
+          width="180px"
           src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...eBqhVPnxnFwXs1M3EMoAJtliYoh...Vu9P05"
         />
         <div className="">
