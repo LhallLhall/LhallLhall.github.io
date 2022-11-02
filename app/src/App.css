@@ -10,9 +10,13 @@ html {
   text-shadow: 10px 5px 5px black;
   }
   
-  .bgShadow{
+  /* .bgShadow{
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.65);
-    /* box-shadow: 10px 5px 5px black; */
+    box-shadow: 10px 5px 5px black;
+  } */
+
+  .imgResize {
+    max-width: 20vw;
   }
   
   .body {
@@ -102,5 +106,27 @@ html {
   border-bottom-color: #fff;
   }
   
-  
-  
+  /* ./img/IMG_6620.jpeg */
+  @media (max-device-width: 480px) {
+    .image {
+      background: url('./img/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+    .cover-container{
+      max-width: 40em;
+    }
+    .nav-masthead .nav-link {
+      color: rgba(255, 255, 255, 0.888);
+      border-bottom: .25rem solid transparent;
+      }
+      .imgResize{
+        max-width: 60vw;
+      }
+    }
+    @media (min-device-width: 481px) and (max-device-width: 991px) {
+      .imgResize{
+        max-width: 40vw;
+      }
+      
+  }
