@@ -4,18 +4,18 @@ import { Navbar } from '../../navbar/navbar'
 export default function Contact (props) {
   const BgImage1 = 'https://i.redd.it/3jfjc53fsyb61.jpg'
     return (
-        <div style={{backgroundImage: `url(${BgImage1})`}} >
+        <div style={{backgroundImage: `url(${BgImage1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} >
           <Navbar page={props.page} setPage={props.setPage}/>
-        <div className="d-flex align-items-center justify-content-center container " style={{height: "100vh"}}>
+        <div className="d-flex align-items-center justify-content-center container pt-1 " style={{height: "100vh"}}>
       <div className=" col-md-12 col-sm-9 col-9 col-lg-9 col-xl-8">
         <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bgImage2" style={{backgroundImage: `url(${BgImage}`}}>
-          <div className="col-md-6 pl-1 d-lg-block text-center">
-            <img src={Image} className="featurette-image img-fluid mx-auto" alt="Responsive image" style={{minWidth: '100', minHeight: '100'}} preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <div className="col-md-6  pl-1 d-lg-block text-center">
+            <img src={Image} className="featurette-image img-fluid mx-auto contactImgResize" alt="Responsive image" style={{minWidth: '100', minHeight: '100'}} preserveAspectRatio="xMidYMid slice" focusable="false"/>
             
           </div>
-          <div className="col-md-6 col-sm- p-4 d-flex flex-column ">
-              <h1 className="m-2 text-center color"> I am Logan Hall</h1>
-              <h3 className=" border-light border-bottom border-3 pt-4 text-center color"> Let's get in touch!</h3>
+          <div className="col-md-6  p-4 d-flex flex-column ">
+              <h1 className="m-2 text-center color"> Let's get in touch!</h1>
+              <h3 className="d-none d-sm-flex justify-content-center border-light border-bottom border-3 pt-4 text-center color">Logan Hall</h3>
             <div className="col-12  d-flex justify-content-center align-content-center text-center pt-1" >
               <a href="https://www.linkedin.com/in/logan-hall-966460232/" target="_blank" className="text-decoration-none link" style={{color: "#ded9d9"}} >
               <svg xmlns="http://www.w3.org/2000/svg" width="60" height="8vh" fill="currentColor" className="bi bi-linkedin m-2" viewBox="0 0 16 16">
@@ -33,7 +33,7 @@ export default function Contact (props) {
               </svg>
               </a>
             </div>
-            <div className="col d-flex text-center justify-content-center align-items-center">
+            <div className="col d-none d-md-flex text-center justify-content-center align-items-center">
                 <img src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...eBqhVPnxnFwXs1M3EMoAJtliYoh...Vu9P05"  width="600px" style={{maxHeight: "300px", maxWidth: "300px"}} />
             </div>
           </div>

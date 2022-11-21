@@ -1,4 +1,5 @@
 import { Navbar } from "../navbar/navbar.jsx";
+// import { useMediaQuery } from 'usehooks-ts';
 import Footer from "../footer/footer.jsx";
 import BlogPost1 from "./blog-post-1.jsx";
 import BlogPost2 from "./blog-post-2.jsx";
@@ -6,11 +7,12 @@ import BlogPost3 from "./blog-post-3.jsx";
 import BlogPost4 from "./blog-post-4.jsx";
 import Contact from "./contact/contact-card.jsx";
 // import unsplashImage from 'unsplash-photo-1.jpg'
-import WeatherAppImg from "./weather-app.png";
-import AlarmClockImg from './alarm-clock.png'
+import WeatherAppImg from "./WeatherApp.gif";
+import AlarmClockImg from './AlarmClock.gif'
 import MindReaderImg from './mind-reader.png'
-import PokemonGenImg from './pokemon-gen.png'
+import PokemonGenImg from './PokemonGenerator.gif'
 import ToDoListImg from './to-do-list.png'
+import ReactRestaurant from './ReactRestaurant.gif'
 
 
 
@@ -24,13 +26,17 @@ export default function MainPage(props) {
   }
 
   if (props.page === "Home") {
+    // const queryTest = useMediaQuery('(min-width: 768px)')
+    // if (queryTest == true){
+    //   console.log('it works')
+    // }
     return (
       <>
         <div
           className="d-flex text-center text-bg-dark image"
           style={{ height: "100vh" }}
         >
-          <div className="cover-container d-flex w-100 h-75 p-3 mx-auto flex-column">
+          <div className="cover-container d-flex w-100 h-75 h-s-100 p-3 mx-auto flex-column">
             <Navbar setPage={props.setPage} page={props.page} />
 
             <main className="px-3">
@@ -115,7 +121,7 @@ export default function MainPage(props) {
                     href="https://lhalllhall.github.io/Alarm-Clock/"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -143,7 +149,7 @@ export default function MainPage(props) {
                     href="https://lhalllhall.github.io/Mind-Reader/"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -171,7 +177,7 @@ export default function MainPage(props) {
                     href="https://lhalllhall.github.io/pokemon-generator/"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -198,7 +204,7 @@ export default function MainPage(props) {
                     href="https://lhalllhall.github.io/to-do-list/"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -227,7 +233,7 @@ export default function MainPage(props) {
                     href="https://lhalllhall.github.io/weather-app/"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -241,6 +247,9 @@ export default function MainPage(props) {
                 // style="background-image: url('unsplash-photo-3.jpg')"
               >
                 <div className="col d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <div className='d-flex justify-content-center'>
+                  <img src={ReactRestaurant} className='imgResize' />
+                  </div>
                   <h2 className="pt-3 mt-4 mb-4 display-6 lh-1 fw-bold text-center color ">
                     React
                     <br>
@@ -256,7 +265,7 @@ export default function MainPage(props) {
                     href="https://lhalllhall.github.io/react-restaurant/"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -280,7 +289,7 @@ export default function MainPage(props) {
                     href="https://github.com/LhallLhall/EverCraft"
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -301,7 +310,7 @@ export default function MainPage(props) {
                     href=""
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
@@ -322,7 +331,7 @@ export default function MainPage(props) {
                     href=""
                     target="_blank"
                     rel="noreferrer"
-                    className="btn btn-secondary w-50"
+                    className="btn btn-outline-light w-50"
                     style={{ textDecoration: "none" }}
                   >
                     Let's Go!
