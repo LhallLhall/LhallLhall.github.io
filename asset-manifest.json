@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.514f3677.css",
-    "main.js": "/static/js/main.d2ab004f.js",
-    "static/media/pokemon-gen.png": "/static/media/pokemon-gen.fc3a82976bd93e5ab16b.png",
+    "main.css": "/static/css/main.c35df903.css",
+    "main.js": "/static/js/main.cdc2c892.js",
+    "static/media/PokemonGenerator.gif": "/static/media/PokemonGenerator.5811c550afc9cda0ab13.gif",
+    "static/media/ReactRestaurant.gif": "/static/media/ReactRestaurant.50e60f94c1fae3e0d3b3.gif",
+    "static/media/WeatherApp.gif": "/static/media/WeatherApp.6a97fa6cae12fb2884f5.gif",
     "static/media/virtual-reality-bro.png": "/static/media/virtual-reality-bro.132a35f13186c42d6aef.png",
     "static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.jpeg": "/static/media/747E4440-2939-4231-9A5C-A5B899554123_1_105_c.81ff637c974627944871.jpeg",
     "static/media/landscapeImageOfMe.jpeg": "/static/media/landscapeImageOfMe.89da425d6c53a4923322.jpeg",
     "static/media/to-do-list.png": "/static/media/to-do-list.3b5bb8b367552fb3b743.png",
-    "static/media/alarm-clock.png": "/static/media/alarm-clock.36883ea1ec481fc787b5.png",
-    "static/media/weather-app.png": "/static/media/weather-app.487b575f75bb58556cc5.png",
     "static/media/mind-reader.png": "/static/media/mind-reader.bc8b0dea4875fdd0fc35.png",
+    "static/media/AlarmClock.gif": "/static/media/AlarmClock.59d07f3349dd6c1b5f09.gif",
     "static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpeg": "/static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.8281f135dcee8686535c.jpeg",
     "index.html": "/index.html",
-    "main.514f3677.css.map": "/static/css/main.514f3677.css.map",
-    "main.d2ab004f.js.map": "/static/js/main.d2ab004f.js.map"
+    "main.c35df903.css.map": "/static/css/main.c35df903.css.map",
+    "main.cdc2c892.js.map": "/static/js/main.cdc2c892.js.map"
   },
   "entrypoints": [
-    "static/css/main.514f3677.css",
-    "static/js/main.d2ab004f.js"
+    "static/css/main.c35df903.css",
+    "static/js/main.cdc2c892.js"
   ]
 }
