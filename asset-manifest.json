@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.347e16e1.css",
-    "main.js": "/static/js/main.31269b86.js",
+    "main.js": "/static/js/main.79064f72.js",
     "static/media/PokemonGenerator.gif": "/static/media/PokemonGenerator.5811c550afc9cda0ab13.gif",
     "static/media/ReactRestaurant.gif": "/static/media/ReactRestaurant.50e60f94c1fae3e0d3b3.gif",
     "static/media/Screenshot_1.png": "/static/media/Screenshot_1.75a7cd47003d4e22e9ee.png",
@@ -15,10 +15,10 @@
     "static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.jpeg": "/static/media/HD-wallpaper-pattern-black-dark-grey-shape-thumbnail.8281f135dcee8686535c.jpeg",
     "index.html": "/index.html",
     "main.347e16e1.css.map": "/static/css/main.347e16e1.css.map",
-    "main.31269b86.js.map": "/static/js/main.31269b86.js.map"
+    "main.79064f72.js.map": "/static/js/main.79064f72.js.map"
   },
   "entrypoints": [
     "static/css/main.347e16e1.css",
-    "static/js/main.31269b86.js"
+    "static/js/main.79064f72.js"
   ]
 }
