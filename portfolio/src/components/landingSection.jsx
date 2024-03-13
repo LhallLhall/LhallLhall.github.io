@@ -2,16 +2,13 @@ import Navbar from "./navbar.jsx";
 
 export default function LandingSection() {
   return (
-    <div>
-        <Navbar />
-      <div className="flex h-screen">
-        <div className="m-auto">
-          <p className="text-left text-lg font-bold">
-            Welcome to our website!
-          </p>
-          <p className="text-left">
-            Explore our services and products. We're here to provide you with the best experience.
-          </p>
+    <div className="h-screen">
+      <Navbar />
+      <div className="container mx-auto h-screen ">
+        <div className="grid-rows-1 flex  items-center h-full">
+          <div className="grid-cols-1">
+            <p>test</p>
+          </div>
         </div>
       </div>
     </div>
