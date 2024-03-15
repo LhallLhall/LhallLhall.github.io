@@ -1,11 +1,11 @@
 import Navbar from "./navbar.jsx";
-import Styles from "../styles/landingSection.module.css"
+import styles from "../styles/landingSection.module.css"
 
 
 export default function LandingSection() {
   return (
     <div className="h-screen font-mono">
-      <div style={{backgroundImage: "/images/background.jpg", backgroundRepeat: "no-repeat", backgroundSize: "cover"}} className={Styles.backgroundImg}>
+      <div  className={styles.backgroundImg}>
         <Navbar />
         <div className="container mx-auto h-screen ">
           <div className="grid-rows-1 flex  items-center h-full">
