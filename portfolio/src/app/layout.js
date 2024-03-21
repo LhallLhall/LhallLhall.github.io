@@ -17,7 +17,9 @@ export default function RootLayout({ children }) {
       <body style={{backgroundColor: "#181A1B"}} className={(
           "min-h-screen bg-background font-mono antialiased",
           fontSans.variable
-        )}>{children}</body>
+        )}>{children}
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        </body>
     </html>
   );
 }
