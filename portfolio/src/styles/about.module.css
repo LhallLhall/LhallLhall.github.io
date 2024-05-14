@@ -1,0 +1,50 @@
+
+
+.codeWrp {
+    font-family: Roboto Mono, Courier New, Courier, monospace !important;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.methods {
+    color: #5918df;
+    display: inline;
+}
+.propname {
+    color: #eeff31;
+}
+.codel {
+    position: relative;
+    z-index: 1;
+}
+.codel:after {
+    color: #3b3553;
+    content: attr(data-line-nr);
+    font-family: Roboto Mono, Courier New, Courier, monospace !important;
+    font-size: 16px;
+    left: -60px;
+    line-height: 1.6;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+.comment {
+    color: #78707e;
+    display: inline;
+}
+.dot {
+    color: #3b355373 !important;
+    display: inline;
+}
+.scope {
+    color: #e3244c;
+    display: inline;
+}
+.prop2 {
+    color: #24e394;
+}
+.string {
+    color: #24e33a;
+}
+.number {
+    color: #e39d24;
+}
