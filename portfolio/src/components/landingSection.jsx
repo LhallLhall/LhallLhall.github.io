@@ -6,13 +6,11 @@ import { ReactTyped } from "react-typed";
 
 
 export default function LandingSection() {
-
   
 
   return (
     <div className="h-screen font-mono">
-      <div  className={styles.backgroundImg}>
-        <NavComponent />
+      <div className={styles.backgroundImg}>
         <div className="container mx-auto h-screen ">
           <div className="grid-rows-1 flex items-center h-full">
             <div className="grid-cols-1">
