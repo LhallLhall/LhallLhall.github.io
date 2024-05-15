@@ -64,52 +64,57 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
-}
- 
-@layer base {
-  * {
-    @apply border-border;
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
   }
+
+  html {
+    background-color: #181a1b;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    background-color: #181a1b;
   }
-}
 
-html {
-  background-color: #181a1b;
-}
-
-body {
-  background-color: #181a1b;
-}
-
-p {
-color: white;
-}
-
-h1 {
+  p {
   color: white;
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-
-#about {
-  background-color: #0f0d15;
-  background-image: linear-gradient(to bottom, #1a1527, #0e0c16 88%, #0e0c16 99%);
-  background-position: top;
-  background-repeat: repeat-x;
-  height: 100vh; /* Changed from auto to 100vh to cover full viewport height */
-  min-height: 100vh; /* Ensures a minimum height of the viewport height */
-  overflow: hidden;
-  position: relative;
-}
-
-
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2rem; /* Adjust the size as needed */
   }
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    /* margin-bottom: 1rem; */
+  }
+
+  #backgroundWrap {
+    background-color: #0f0d15;
+    background-image: linear-gradient(to bottom, #1a1527, #0e0c16 88%, #0e0c16 99%);
+    background-position: top;
+    background-repeat: repeat-x;
+  }
+
+  #about {
+
+    height: 100vh; /* Changed from auto to 100vh to cover full viewport height */
+    min-height: 100vh; /* Ensures a minimum height of the viewport height */
+    overflow: hidden;
+    position: relative;
+    scroll-snap-type: start;
+  }
+
+
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem; /* Adjust the size as needed */
+    }
+  }
+
 }

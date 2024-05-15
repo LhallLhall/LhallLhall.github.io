@@ -1,5 +1,3 @@
-
-
 .codeWrp {
     font-family: Roboto Mono, Courier New, Courier, monospace !important;
     font-size: 16px;
@@ -14,6 +12,7 @@
 }
 .codel {
     position: relative;
+    left: 35px;
     z-index: 1;
 }
 .codel:after {

@@ -3,9 +3,13 @@ import styles from "../styles/about.module.css"
 
 export default function About() {
   return (
-    <div className='h-screen'>
-      <div className='container mx-auto '>
-        <div className={styles.codeWrp}>
+    <div className='container mx-auto h-screen font-mono'>
+      <div className="grid-rows-1 flex-wrap flex my-4">
+        <div className="grid-cols-12">
+          <h2 className="my-5 ">About /&gt;</h2>
+        </div>
+        <div className="grid-cols-12">
+          <div className={styles.codeWrp}>
           <div data-line-nr='01' className={styles.codel}>
             <div className={styles.methods}>class</div>
             <span className={styles.propname}> Logan Hall</span> &#123;
@@ -50,44 +54,40 @@ export default function About() {
           </div>
           <div data-line-nr='11' className={styles.codel}>
             <div className={styles.dot}>······</div>
-            &#123; <span className={styles.string}>'2020-now'</span> :
-            <span className={styles.string}> 'Full-stack Developer/Owner at Pixel Lab'</span> &#125;
+            &#123; <span className={styles.string}>'2024-now'</span> :
+            <span className={styles.string}> 'Web / Mobile Developer at eLink Design.'</span> &#125;,
+            
           </div>
           <div data-line-nr='12' className={styles.codel}>
             <div className={styles.dot}>······</div>
-            &#123; <span className={styles.string}>'2023-now'</span> :
-            <span className={styles.string}> 'Solutions Architect at Digitree Group S.A.'</span> &#125;
+            &#123; <span className={styles.string}>'2019-now'</span> :
+            <span className={styles.string}> 'Junior Web Developer at 2819 Studios.'</span> &#125;,
           </div>
           <div data-line-nr='13' className={styles.codel}>
             <div className={styles.dot}>······</div>
-            &#123; <span className={styles.string}>'2017-2023'</span> :
-            <span className={styles.string}> 'Full-stack Developer at Digitree Group S.A.'</span> &#125;
+            &#123; <span className={styles.string}>'2023-2023'</span> :
+            <span className={styles.string}> 'Assistant Instructor at Awesome Inc.'</span> &#125;,
           </div>
           <div data-line-nr='14' className={styles.codel}>
             <div className={styles.dot}>······</div>
-            &#123; <span className={styles.string}>'2013-2017'</span>:
-            <span className={styles.string}> 'Full-Stack Designer at Digitree Group S.A.'</span> &#125;
+            &#123; <span className={styles.string}>'2023-2023'</span> :
+            <span className={styles.string}> 'Web Developer at CentrAlert.'</span> &#125;
           </div>
           <div data-line-nr='15' className={styles.codel}>
-            <div className={styles.dot}>······</div>
-            &#123; <span className={styles.string}>'2006-now'</span> :
-            <span className={styles.string}> 'Full-Stack Designer/developer at Yasio.dev'</span> &#125;
-          </div>
-          <div data-line-nr='16' className={styles.codel}>
             <div className={styles.dot}>····</div>]
           </div>
-          <div data-line-nr='17' className={styles.codel}>
+          <div data-line-nr='16' className={styles.codel}>
             <div className={styles.dot}>··</div>&#125;
           </div>
-          <div data-line-nr='18' className={styles.codel}>
+          <div data-line-nr='17' className={styles.codel}>
             <div className={styles.dot}>··</div>
             <span className={styles.propname}>education</span>() &#123;
           </div>
-          <div data-line-nr='19' className={styles.codel}>
+          <div data-line-nr='18' className={styles.codel}>
             <div className={styles.dot}>····</div>
             <div className={styles.methods}>return</div> [
           </div>
-          <div data-line-nr='20' className={styles.codel}>
+          <div data-line-nr='19' className={styles.codel}>
             <div className={styles.dot}>······</div>
             &#123; <span className={styles.string}>'2022'</span>:
             <span className={styles.string}>
@@ -111,7 +111,8 @@ export default function About() {
             <div className={styles.methods}>return</div> [{" "}
             <span className={styles.string}>
               'HTML/CSS/JS', 'Node.js', 'Bootstrap/Tailwind', 'Vite', 'npm/yarn/pnpm', 'Docker', 'Firebase', 'PHP', 'Laravel',
-              'ORM', 'Alembic/FastAPI', 'Python', 'SQL', 'Django', 'PostgressSQL' 'Wordpress', 'UX/UI', 'AWS', 'C#', 'TypeScript', 'NestJS', 'Postman', 'Thunderclient', 'GA4/Google Search Console', 'Agile Development', 'OOP', 'Responsive Design'  {" "}
+              'ORM', 'Alembic/FastAPI', 'Python', 'SQL', 'Django', 'PostgressSQL' 'Wordpress', 'UX/UI', 'AWS', 'C#', 'TypeScript',
+              'NestJS', 'Postman', 'Thunderclient', 'GA4/Google Search Console', 'Agile Development', 'OOP', 'Responsive Design'  {" "}
             </span>{" "}
             <span className='cursor'></span> ]
           </div>
@@ -120,6 +121,7 @@ export default function About() {
           </div>
           <div data-line-nr='27' className={styles.codel}>
             &#125;
+          </div>
           </div>
         </div>
       </div>
