@@ -3,26 +3,8 @@ import { Navbar } from "flowbite-react";
 import { useEffect } from "react";
 
 export default function NavComponent() {
-  useEffect(() => {
-    const navbar = document.getElementById('navbar');
-    const sticky = navbar.offsetTop;
-
-    const handleScroll = () => {
-      if (window.scrollY >= sticky) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
   return (
-    <div id="navbar" className="">
+    <div id="navbar" className="fixed w-screen">
       <Navbar className="bg-transparent px-0 py-0 pt-3" fluid rounded>
         <Navbar.Brand as={Link} href="#">
           {/* <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" /> */}

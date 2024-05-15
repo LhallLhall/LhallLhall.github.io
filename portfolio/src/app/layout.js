@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
           fontSans.variable
         )}>{children}
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
         </body>
     </html>
   );

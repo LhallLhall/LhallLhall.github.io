@@ -8,9 +8,7 @@ import NavComponent from "@/components/navbar.jsx";
 export default function Home() {
   return (
     <div className="snap-mandatory snap-y font-mono">
-      <div className=" absolute w-screen">
-        <NavComponent />
-      </div>
+      <NavComponent />
       <div id="landing" className="">
         <LandingSection/>
       </div>
